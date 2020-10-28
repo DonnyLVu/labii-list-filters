@@ -10,8 +10,9 @@ export default class ImageItem extends React.Component {
                 <div>Description: {this.props.description}</div>
                 <div>Keyword: {this.props.keyword}</div>
                 <div>Number of Horns: {this.props.horns}</div>
-                <div>{this.props.caption}</div>
-                <h3>{this.props.size}</h3>
+                <div>Caption: {this.props.caption}</div>
+                <div>Size?: {this.props.size}</div>
+                <div>Real?: {this.props.real}</div>
             </div>
         )
     }
