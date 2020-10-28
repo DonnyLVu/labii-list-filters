@@ -1,10 +1,10 @@
 import React from 'react';
-import images from './Data.js';
+// import images from './Data.js';
 
 export default class ImageItem extends React.Component {
     render() {
         return (
-            <div >
+            <>
                 <h3 >Title: {this.props.title}</h3>
                 <img className="images" src={this.props.url} alt={this.props.title}></img>
                 <div>Description: {this.props.description}</div>
@@ -13,7 +13,7 @@ export default class ImageItem extends React.Component {
                 <div>Caption: {this.props.caption}</div>
                 <div>Size?: {this.props.size}</div>
                 <div>Real?: {this.props.real}</div>
-            </div>
+            </>
         )
     }
 }
